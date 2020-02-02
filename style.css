@@ -105,7 +105,7 @@ a{
     line-height: 15px;
 }
 .description__icon{
-    width: 26.4px;
+    width: 24px;
     height: 42.37px;
 }
 .value-third{
@@ -151,6 +151,13 @@ a{
     width: 100%;
     margin: 0 auto;
     padding-left: 10px;
+}
+.description__first{
+    display: flex;
+}
+.description__second{
+    display: flex;
+    justify-content: space-between 2px
 }
 .section__order{
     display: flex;
