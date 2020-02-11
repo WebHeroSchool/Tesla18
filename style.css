@@ -18,7 +18,7 @@ a{
     background-color: #ffffff;
     box-sizing: border-box;
 }
-body{
+.car{
     background: url(./img/Tesla-Wordmark-Red-Background.png) no-repeat;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
@@ -104,6 +104,7 @@ body{
     justify-content: center;
     align-items: top;
     margin: 0 auto;
+    
 }
 .value-first{
     font-weight: 600;
