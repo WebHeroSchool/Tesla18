@@ -102,10 +102,8 @@ a{
 .wrap{
     background: url(./img/Tesla-Wordmark-Red-Background.png) no-repeat;
     -moz-background-size: 100%;
-    -webkit-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
-    background-position: 100% 100%;
+    background-position: 50% 800%;
 }
 .value-first{
     font-weight: 600;
