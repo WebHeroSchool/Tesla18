@@ -90,8 +90,8 @@ a{
     width: 1514px;
 }
 .car{
-    width: 968px;
-    height: 450px;
+    width: 70%;
+    height: 187%;
     top: 278px;
     display: flex;
     justify-content: center;
@@ -103,6 +103,7 @@ a{
     background: url(./img/Tesla-Wordmark-Red-Background.png) no-repeat;
     -moz-background-size: 100%;
     -o-background-size: 100%;
+    /*background-size: 100%;*/
     background-position: 50% 800%;
 }
 .value-first{
@@ -173,7 +174,7 @@ a{
         display: none;
     }
     .car{
-        width: 80%;
+        
     }
 }
 /*.tick{
