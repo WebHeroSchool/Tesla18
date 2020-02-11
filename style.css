@@ -105,7 +105,7 @@ a{
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-    background-position: 25% 75%;
+    background-position: 100% 100%;
 }
 .value-first{
     font-weight: 600;
