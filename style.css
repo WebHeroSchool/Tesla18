@@ -100,7 +100,7 @@ a{
 }
 .value-first{
     font-weight: 600;
-    font-size: 35px;
+    font-size: 32px;
     line-height: 43px;
 }
 .value-second{
@@ -159,7 +159,6 @@ a{
 }
 .description__value{
     display:flex;
-    flex-direction: column;
 }
 .description__first{
     display: flex;
