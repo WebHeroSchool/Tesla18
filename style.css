@@ -167,7 +167,13 @@ a{
 }
 @media screen and (max-width: 1006px){
     .menu{
-        display: block;
+        display: none;
+    }
+    .side-menu{
+        display: none;
+    }
+    .car{
+        width: 80%;
     }
 }
 /*.tick{
