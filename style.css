@@ -158,9 +158,9 @@ a{
 .section__order{
     display:flex;
 }
-.tick{
+@media screen and(max-width 1006px)
+/*.tick{
     width: 28px;
     height: 14px;
-    left: 706px;
-}
+}*/
 
