@@ -9,6 +9,7 @@ a{
 .header{
     display: -webkit-flex;
     justify-content: space-between ;
+    align-items: center;
     padding: 40px 60px 0 43px;
     top: 40px;
     width: 100%;
@@ -34,6 +35,9 @@ a{
     text-decoration: underline;
     font-weight: 600;
 }
+.menu-model__item__active:hover{
+    text-shadow: #E51937 2px;
+}
 .side-menu__item{
    display: inline;
    position: relative; 
@@ -46,6 +50,7 @@ a{
 .button__burger{
     border: none;
     background-color: #ffffff;
+    cursor: pointer;
 }
 /*description of second section*/
 .section-second{
