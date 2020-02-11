@@ -146,7 +146,7 @@ a{
     height: 14px;
 }
 .description{
-    display: flex;
+    /*display: flex;
     /*flex: 1;
     max-width: 450px;
     display: flex;
@@ -157,19 +157,18 @@ a{
     margin: 0 auto;
     padding-left: 10px;*/
 }
-.description__value{
-    display:flex;
-}
+
 .description__first{
     display: flex;
+    justify-content: space-between;
 }
 .description__second{
     display: flex;
-    justify-content: space-between 2px;
+    justify-content: space-between px;
 }
 .section__order{
-    flex: 1;
+    /*flex: 1;
     justify-content: space-between; 
     min-width: 315px;
-    padding-left: 55px;
+    padding-left: 55px;*/
 }
