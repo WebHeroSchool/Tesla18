@@ -147,5 +147,18 @@ a{
 }
 .description{
     display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
 }
-
+.speed__wheel__all{
+    display: flex;
+}
+.description__second__all{
+    display: flex;
+}
+.section__order{
+    display:flex;
+}
+.section__order__btn{
+    display: flex;
+}
