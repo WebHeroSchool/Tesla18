@@ -146,29 +146,6 @@ a{
     height: 14px;
 }
 .description{
-    /*display: flex;
-    /*flex: 1;
-    max-width: 450px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  /*  max-width: 798px;
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 10px;*/
 }
 
-.description__first{
-    display: flex;
-    justify-content: space-between;
-}
-.description__second{
-    display: flex;
-    justify-content: space-between px;
-}
-.section__order{
-    /*flex: 1;
-    justify-content: space-between; 
-    min-width: 315px;
-    padding-left: 55px;*/
-}
