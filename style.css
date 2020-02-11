@@ -123,6 +123,9 @@ a{
     width: 14.18px;
     height: 8.23px;
 }
+.wheel{
+    margin-bottom: -5%;
+}
 .link{
     font-weight: bold;
     font-size: 13px;
@@ -141,10 +144,6 @@ a{
     line-height: 16px;
     background-color: transparent;
 }
-.tick{
-    width: 28px;
-    height: 14px;
-}
 .description{
     display: flex;
     justify-content: space-between;
@@ -159,6 +158,9 @@ a{
 .section__order{
     display:flex;
 }
-.section__order__btn{
-    display: flex;
+.tick{
+    width: 28px;
+    height: 14px;
+    left: 706px;
 }
+
