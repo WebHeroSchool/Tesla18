@@ -36,7 +36,9 @@ a{
     font-weight: 600;
 }
 .menu-model__item__active:hover{
-    text-shadow: #E51937 2px;
+    text-shadow: 1px 1px 1px #E51937;
+    color: #E51937;
+    font-size: 2em;
 }
 .side-menu__item{
    display: inline;
@@ -96,15 +98,6 @@ a{
     align-items: top;
     margin: 0 auto;
 }
-.speed__wheel{
-    left: 321px;
-    position: absolute;
-    width: 60px;
-    height: 50px;
-}
-.speed{
-    width:
-}
 .value-first{
     font-weight: 600;
     font-size: 35px;
@@ -153,7 +146,8 @@ a{
     height: 14px;
 }
 .description{
-    flex: 1;
+    display: flex;
+    /*flex: 1;
     max-width: 450px;
     display: flex;
     justify-content: space-between;
@@ -179,10 +173,4 @@ a{
     justify-content: space-between; 
     min-width: 315px;
     padding-left: 55px;
-}
-.wrap{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
 }
