@@ -158,7 +158,11 @@ a{
 .section__order{
     display:flex;
 }
-@media screen and(max-width 1006px)
+@media screen and(max-width 1006px){
+    .menu{
+        display: block;
+    }
+}
 /*.tick{
     width: 28px;
     height: 14px;
