@@ -259,10 +259,9 @@ a{
     .value-third{
         font-size: 27px;
     }
-   
-    
-
-    
+   .description{
+       width:200px;
+   }
 }
 
 
