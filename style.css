@@ -57,7 +57,13 @@ a{
 /*description of second section*/
 .section-second{
     position: relative;
-    overflow: hidden;
+   /* overflow: hidden;*/
+    background: url(./img/Tesla-Wordmark-Red-Background.png) no-repeat;
+   /* -moz-background-size: 100%;
+     -o-background-size: 100%;*/
+     background-size: contain;
+     background-position: 20% 10%;
+     height: 100vh;
 }
 .title{
     /*margin-top: 134px;*/
@@ -98,13 +104,6 @@ a{
     align-items: top;
     margin: 0 auto;
     
-}
-.wrap{
-    background: url(./img/Tesla-Wordmark-Red-Background.png) no-repeat;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    /*background-size: 100%;*/
-    background-position: 50% 800%;
 }
 .value-first{
     font-weight: 600;
@@ -173,9 +172,17 @@ a{
     .side-menu{
         display: none;
     }
-    .car{
-        
+    .title{
+        height: 110px;
+        margin-bottom: 30px;
+
     }
+    .car{
+      width: 357px;
+      height: 166px;
+      top: 267px;  
+    }
+
 }
 /*.tick{
     width: 28px;
