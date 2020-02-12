@@ -199,7 +199,9 @@ a{
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
-
+    .speed__wheel{
+        margin-right: 10px;
+    }
 }
 @media screen and (max-width: 768px){
     .description{
@@ -259,8 +261,8 @@ a{
     .value-third{
         font-size: 27px;
     }
-   .description{
-       width:200px;
+   .header{
+       padding: 0;
    }
 }
 
