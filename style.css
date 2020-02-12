@@ -242,10 +242,18 @@ a{
     .speed__wheel__all{
         margin-bottom: 30px;
     }
-
 }
-/*.tick{
-    width: 28px;
-    height: 14px;
-}*/
+@media screen and (max-width: 460px){
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 10px;
+    }
+    .value-first .value-third{
+        font-size: 27px;
+    }
+    
+}
+
 
