@@ -3,6 +3,9 @@
     margin: 0;
     font-family: 'Montserrat', Arial, sans-serif; 
 }
+body{
+    min-width: 380px;
+}
 a{
     text-decoration: none;
 }
@@ -250,7 +253,10 @@ a{
     .subtitle{
         font-size: 10px;
     }
-    .value-first .value-third{
+    .value-first{
+        font-size: 27px;
+    }
+    .value-third{
         font-size: 27px;
     }
     
