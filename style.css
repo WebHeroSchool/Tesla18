@@ -137,13 +137,16 @@ a{
     display: flex;
     align-items: center;
 }
+.wheel__red{
+    display: none;
+}
 .link{
     font-weight: bold;
     font-size: 13px;
     line-height: 16px;
     text-align: center;
     text-transform: uppercase;
-    color: #000000;
+    color: #E51937;
 }
 .section-second__btn{
     width: 160px;
@@ -180,11 +183,6 @@ a{
     .side-menu{
         display: none;
     }
-    .title{
-        height: 110px;
-        margin-bottom: 30px;
-
-    }
     .car{
       width: 357px;
       height: 166px;
@@ -202,6 +200,32 @@ a{
         width: 450px;
         margin: 0 auto;
 
+    }
+    .title{
+        font-size: 90px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    .value-first  .value-third{
+        font-size: 50px;
+    }
+    .road-icon .speed{
+        margin-right: 10px;
+    }
+    .link{
+        color: #E51937;
+    }
+    .section-second__btn{
+        color: #ffffff;
+        background: #E51937;
+    }
+    .wheel{
+        display:none;
+    }
+    .wheel__red{
+        display: block;
+        margin-right: 8px;
     }
 
 }
