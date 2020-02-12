@@ -105,6 +105,9 @@ a{
     margin: 0 auto;
     
 }
+.speed{
+    width: 75px;
+}
 .value-first{
     font-weight: 600;
     font-size: 32px;
@@ -130,8 +133,9 @@ a{
     width: 14.18px;
     height: 8.23px;
 }
-.wheel{
-    margin-bottom: -5%;
+.wrap__wheel{
+    display: flex;
+    align-items: center;
 }
 .link{
     font-weight: bold;
@@ -150,6 +154,10 @@ a{
     font-size: 13px;
     line-height: 16px;
     background-color: transparent;
+}
+.section__order__btn{
+    display: flex;
+    align-items: center;
 }
 .description{
     display: flex;
@@ -181,6 +189,19 @@ a{
       width: 357px;
       height: 166px;
       top: 267px;  
+    }
+    .description{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .description{
+        width: 450px;
+        margin: 0 auto;
+
     }
 
 }
