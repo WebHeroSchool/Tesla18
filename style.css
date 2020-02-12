@@ -215,7 +215,7 @@ a{
     }
     .speed {
         width: 75px;
-        padding-right: 55px;
+        padding-right: 15px;
     }
     .road-icon{
         display: none;
@@ -223,7 +223,7 @@ a{
     .road-icon__red{
         display: block;
         width: 35px;
-        padding-right: 55px;
+        padding-right: 15px;
     }
     .link{
         color: #E51937;
@@ -237,10 +237,10 @@ a{
     }
     .wheel__red{
         display: block;
-        margin-right: 8px;
+        margin-right: 30px;
     }
     .speed__wheel__all{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
 }
