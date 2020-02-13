@@ -182,7 +182,7 @@ a{
 .section__order{
     display:flex;
 }
-@media screen and (max-width: 1006px){
+@media screen and (max-width: 1008px){
     .menu{
         display: none;
     }
@@ -262,7 +262,7 @@ a{
         font-size: 27px;
     }
    .header{
-       padding: 0;
+       padding: 10px;
    }
 }
 
