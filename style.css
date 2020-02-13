@@ -161,6 +161,8 @@ a{
     line-height: 16px;
     background-color: transparent;
     font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 .section__order__btn{
     display: flex;
@@ -192,7 +194,7 @@ a{
     .menu{
         display: none;
     }
-    .side-menu{
+    .side-menu__item{
         display: none;
     }
     .car{
@@ -273,11 +275,17 @@ a{
     .subtitle{
         font-size: 10px;
     }
+    .wrap{
+        margin-bottom: 18px;
+    }
+    .wheel__red{
+        margin-right: 10px;
+    }
     .value-first{
-        font-size: 27px;
+        font-size: 25px;
     }
     .value-third{
-        font-size: 27px;
+        font-size: 25px;
     }
    .header{
        padding: 10px;
