@@ -245,10 +245,13 @@ a{
     }
     .wheel__red{
         display: block;
-        margin-right: 30px;
+        margin-right: 23px;
     }
     .speed__wheel__all{
         margin-bottom: 30px;
+    }
+    .section-second{
+        background-position: 10px 10px;
     }
 }
 @media screen and (max-width: 460px){
@@ -271,6 +274,11 @@ a{
 @media screen and (max-width: 450px){
     .description{
         width: 100%;
+    }
+}
+@media screen and (max-width: 900px){
+    .section-second{
+        background-position: 35px 35px;
     }
 }
 
