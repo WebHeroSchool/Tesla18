@@ -20,6 +20,7 @@ a{
     margin: 0 auto;
     background-color: #ffffff;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
 .menu{
     position: relative;
@@ -74,7 +75,7 @@ a{
     font-weight: 600;
     font-size: 90px;
     line-height: 110px;
-    margin-top: 68px;
+    
     margin-bottom: 0px;
 
 }
@@ -250,9 +251,6 @@ a{
     .speed__wheel__all{
         margin-bottom: 30px;
     }
-    .section-second{
-        background-position: 10px 10px;
-    }
 }
 @media screen and (max-width: 460px){
     .title{
@@ -278,7 +276,7 @@ a{
 }
 @media screen and (max-width: 900px){
     .section-second{
-        background-position: 35px 35px;
+        background-position: 35px 90px;
     }
 }
 
