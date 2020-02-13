@@ -203,6 +203,14 @@ a{
         margin-right: 10px;
     }
 }
+@media screen and (max-width: 900px){
+    .section-second{
+        background-position: 35px 90px;
+    }
+    .header{
+        margin-bottom: 15px;
+    }
+}
 @media screen and (max-width: 768px){
     .car{
         width: 100%;
@@ -268,15 +276,17 @@ a{
    .header{
        padding: 10px;
    }
+   .title{
+       line-height: 61px;
+   }
+   .section-second{
+       background-position: 3px 50px;
+   }
 }
 @media screen and (max-width: 450px){
     .description{
         width: 100%;
     }
 }
-@media screen and (max-width: 900px){
-    .section-second{
-        background-position: 35px 90px;
-    }
-}
+
 
