@@ -168,7 +168,8 @@ a{
     justify-content: space-between;
     justify-content: space-evenly;
     margin-bottom: 55px;
-    width: 100%;
+    width: 1030px;
+    margin: 0 auto;
 }
 .road-icon__red{
     display: none;
