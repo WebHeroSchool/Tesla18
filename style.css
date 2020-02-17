@@ -21,20 +21,20 @@ a{
     box-sizing: border-box;
     margin-bottom: 50px;
 }
-.menu-model__item {
+.menu-model_item {
     font-weight: 600;
     font-size: 15px;
     line-height: normal;
     color: #000000;
     margin-right: 40px;
 }
-.menu-model__item__active{
+.menu-model__item_active{
     margin-right: 40px;
     color: #E51937;
     text-decoration: underline;
     font-weight: 600;
 }
-.menu-model__item__active:hover{
+.menu-model__item_active:hover{
     text-shadow: 1px 1px 1px #E51937;
     color: #E51937;
     border-bottom: 2px;
@@ -43,7 +43,7 @@ a{
 .side-menu{
     display: flex;
 }
-.side-menu__item{
+.side-menu_item{
    display: inline;
    position: relative; 
    font-weight: 600;
@@ -82,7 +82,7 @@ a{
     font-size: 15px;
     line-height: normal;
     color: #000000;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
 }
 .wordmark__inner{
     width: 100%;
@@ -168,14 +168,15 @@ a{
     justify-content: space-between;
     justify-content: space-evenly;
     margin-bottom: 55px;
+    width: 100%;
 }
 .road-icon__red{
     display: none;
 }
-.speed__wheel__all{
+.speed__wheel_all{
     display: flex;
 }
-.description__second__all{
+.description__second_all{
     display: flex;
 }
 .section__order{
