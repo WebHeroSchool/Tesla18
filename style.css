@@ -219,7 +219,7 @@ a{
         height: 100%;
     }
     .description{
-        width: 450px;
+        width: 661px;
         margin: 0 auto;
 
     }
@@ -231,7 +231,7 @@ a{
     }
     .value-first,
     .value-third{
-        font-size: 50px;
+        font-size: 35px;
     }
     .speed {
         width: 75px;
@@ -262,6 +262,9 @@ a{
     .speed__wheel_all{
         margin-bottom: 30px;
     }
+    .wrap{
+        margin-bottom: 58px;
+    }
 }
 @media screen and (max-width: 460px){
     .title{
@@ -277,10 +280,10 @@ a{
         margin-right: 10px;
     }
     .value-first{
-        font-size: 25px;
+        font-size: 27px;
     }
     .value-third{
-        font-size: 25px;
+        font-size: 27px;
     }
    .header{
        padding: 10px;
