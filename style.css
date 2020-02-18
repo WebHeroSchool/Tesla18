@@ -4,7 +4,7 @@
     font-family: 'Montserrat', Arial, sans-serif; 
 }
 body{
-    min-width: 380px;
+    min-width: 360px;
 }
 a{
     text-decoration: none;
@@ -42,6 +42,7 @@ a{
 }
 .side-menu{
     display: flex;
+    align-items: center;
 }
 .side-menu_item{
    display: inline;
@@ -92,6 +93,9 @@ a{
     top: 55px;
     max-width: 100%;
     width: 1514px;
+}
+.wrap{
+    margin-bottom: 23px;
 }
 .car{
     width: 978px;
@@ -146,7 +150,7 @@ a{
     text-transform: uppercase;
     color: black;
 }
-.section-second__btn{
+.section-second_btn{
     width: 160px;
     height: 40px;
     border: 2px solid #E51937;
@@ -159,19 +163,18 @@ a{
     cursor: pointer;
     text-transform: uppercase;
 }
-.section__order__btn{
+.section__order_btn{
     display: flex;
     align-items: center;
 }
 .description{
     display: flex;
-    justify-content: space-between;
     justify-content: space-evenly;
-    margin-bottom: 55px;
-    width: 1030px;
-    margin: 0 auto;
+    margin-bottom: 82px;
+    width: 887px;
+    margin: 34px auto;
 }
-.road-icon__red{
+.road-icon_red{
     display: none;
 }
 .speed__wheel_all{
@@ -191,7 +194,7 @@ a{
     .menu{
         display: none;
     }
-    .side-menu__item{
+    .side-menu_item{
         display: none;
     }
     .car{
@@ -207,6 +210,8 @@ a{
     .speed__wheel{
         margin-right: 10px;
     }
+}
+@media screen and (max-width: 900px){
     .section-second{
         background-position: 35px 90px;
     }
@@ -220,9 +225,8 @@ a{
         height: 100%;
     }
     .description{
-        width: 661px;
+        width: 400px;
         margin: 0 auto;
-
     }
     .title{
         font-size: 90px;
@@ -241,7 +245,7 @@ a{
     .road-icon{
         display: none;
     }
-    .road-icon__red{
+    .road-icon_red{
         display: block;
         width: 35px;
         padding-right: 15px;
@@ -249,7 +253,7 @@ a{
     .link{
         color: #E51937;
     }
-    .section-second__btn{
+    .section-second_btn{
         color: #ffffff;
         background: #E51937;
     }
@@ -277,14 +281,25 @@ a{
     .wrap{
         margin-bottom: 18px;
     }
+    .speed__wheel{
+        width: 38px;
+        padding-right: 35px;
+    }
+
     .wheel__red{
         margin-right: 10px;
     }
     .value-first{
         font-size: 27px;
     }
+    .road-icon_red{
+        width: 30px;
+    }
     .value-third{
         font-size: 27px;
+    }
+    p{
+        font-size: 10px;
     }
    .header{
        padding: 10px;
