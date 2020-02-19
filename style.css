@@ -251,7 +251,7 @@ a{
         height: 100%;
     }
     .description{
-        width: 400px;
+        width: 553px;
         margin: 0 auto;
     }
     .title{
@@ -278,11 +278,11 @@ a{
     .road-icon_red{
         width: 42px;
         display: block;
-        width: 35px;
         padding-right: 15px;
     }
     .link{
         color: #E51937;
+        font-size: 16px;
     }
     .section-second_btn{
         width: 221px;
@@ -298,11 +298,13 @@ a{
         margin-right: 23px;
     }
     .speed__wheel_all{
-        margin-bottom: 30px;
+        margin-bottom: 60px;
+        padding-right: 70px;
     }
     .wrap{
         margin-bottom: 58px;
     }
+
 }
 @media screen and (max-width: 460px){
     .title{
@@ -322,18 +324,19 @@ a{
     .wheel__red{
         margin-right: 10px;
     }
-    .value-first{
+    .value-first,
+    .value-third{
         font-size: 27px;
     }
     .value-first_cm,
     .value-third_km{
         font-size: 15px;
     }
+    .link{
+        font-size: 13px;
+    }
     .road-icon_red{
         width: 30px;
-    }
-    .value-third{
-        font-size: 27px;
     }
     p{
         font-size: 10px;
