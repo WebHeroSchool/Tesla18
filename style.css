@@ -103,9 +103,8 @@ a{
     top: 278px;
     display: flex;
     justify-content: center;
-    align-items: top;
-    margin: 0 auto;
-    
+    align-items: flex-start;
+    margin: 0 auto;  
 }
 .speed{
     width: 75px;
@@ -203,7 +202,7 @@ a{
       top: 267px;  
     }
     .description{
-        display: flex;
+       display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
@@ -238,6 +237,10 @@ a{
     .value-third{
         font-size: 35px;
     }
+    .value-first_cm,
+    .value-third_km{
+        font-size: 15px;
+    }
     .speed {
         width: 75px;
         padding-right: 15px;
@@ -255,7 +258,7 @@ a{
     }
     .section-second_btn{
         color: #ffffff;
-        background: #E51937;
+        background-color: #E51937;
     }
     .wheel{
         display:none;
@@ -291,6 +294,10 @@ a{
     }
     .value-first{
         font-size: 27px;
+    }
+    .value-first_cm,
+    .value-third_km{
+        font-size: 15px;
     }
     .road-icon_red{
         width: 30px;
