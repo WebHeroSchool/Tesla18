@@ -4,7 +4,7 @@
     font-family: 'Montserrat', Arial, sans-serif; 
 }
 body{
-    min-width: 360px;
+    min-width: 380px;
 }
 a{
     text-decoration: none;
@@ -344,7 +344,7 @@ a{
     .speed__wheel{
         width: 38px;
         padding-right: 35px;
-        margin-bottom: 32px;
+        margin-bottom: 0px;
     }
 
     .wheel__red{
@@ -381,6 +381,8 @@ a{
        margin: 11px;
    }
    .section-second_btn{
+       width: 148px;
+       height: 47px;
        font-size: 13px;
    }
 }
