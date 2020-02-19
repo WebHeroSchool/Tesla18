@@ -318,7 +318,12 @@ a{
 }
 @media screen and (max-width: 607px){
     .description{
-        width: 588px;
+        width: 508px;
+    }
+}
+@media screen and (max-width: 508px){
+    .description{
+        width: 458px;
     }
 }
 @media screen and (max-width: 460px){
@@ -331,9 +336,15 @@ a{
     .wrap{
         margin-bottom: 18px;
     }
+    .speed{
+        width: 64px;
+        padding-right: 0px;
+        margin: 9px auto;
+    }
     .speed__wheel{
         width: 38px;
         padding-right: 35px;
+        margin-bottom: 32px;
     }
 
     .wheel__red{
@@ -352,6 +363,7 @@ a{
     }
     .road-icon_red{
         width: 30px;
+        margin: 11px auto;
     }
     p{
         font-size: 10px;
@@ -364,6 +376,12 @@ a{
    }
    .section-second{
        background-position: 3px 50px;
+   }
+   .description__second_all{
+       margin: 11px;
+   }
+   .section-second_btn{
+       font-size: 13px;
    }
 }
 @media screen and (max-width: 450px){
