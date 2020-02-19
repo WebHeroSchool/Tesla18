@@ -27,6 +27,7 @@ a{
     line-height: normal;
     color: #000000;
     margin-right: 40px;
+    padding: 0px 0px 6px 0px;
 }
 .menu-model_item:hover{
     color: #E51937;
@@ -43,6 +44,11 @@ a{
 .side-menu{
     display: flex;
     align-items: center;
+}
+.side-menu_item:hover{
+    color: #E51937;
+    border-bottom: 2px solid;
+    padding: 0px 0px 6px 0px;
 }
 .side-menu_item{
    display: inline;
@@ -133,6 +139,7 @@ a{
 .value-first_cm,
 .value-third_km{
     font-size: 20px;
+    font-weight: 600;
  }
 .order__wheel{
     width: 14px;
@@ -179,6 +186,7 @@ a{
     margin-bottom: 82px;
     width: 976px;
     margin: 0px auto;
+    padding-bottom: 18px;
 }
 .road-icon_red{
     display: none;
@@ -218,8 +226,9 @@ a{
     }
     .description{
        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       width: 100%;
     }
     .speed__wheel{
         margin-right: 10px;
@@ -250,11 +259,11 @@ a{
     }
     .value-first,
     .value-third{
-        font-size: 35px;
+        font-size: 50px;
     }
     .value-first_cm,
     .value-third_km{
-        font-size: 15px;
+        font-size: 20px;
     }
     .speed {
         width: 75px;
@@ -264,6 +273,7 @@ a{
         display: none;
     }
     .road-icon_red{
+        width: 42px;
         display: block;
         width: 35px;
         padding-right: 15px;
@@ -272,6 +282,8 @@ a{
         color: #E51937;
     }
     .section-second_btn{
+        width: 221px;
+        height: 58px;
         color: #ffffff;
         background-color: #E51937;
     }
