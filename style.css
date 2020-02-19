@@ -251,7 +251,7 @@ a{
         height: 100%;
     }
     .description{
-        width: 553px;
+        width: 607px;
         margin: 0 auto;
     }
     .title{
@@ -267,6 +267,9 @@ a{
     .value-first_cm,
     .value-third_km{
         font-size: 20px;
+    }
+    .description__second_all{
+        padding-right: 40px;
     }
     .speed {
         width: 75px;
@@ -300,6 +303,9 @@ a{
     .speed__wheel_all{
         margin-bottom: 60px;
         padding-right: 70px;
+    }
+    .speed__wheel_text{
+        margin: 9px;
     }
     .wrap{
         margin-bottom: 58px;
