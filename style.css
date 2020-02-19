@@ -28,17 +28,17 @@ a{
     color: #000000;
     margin-right: 40px;
 }
+.menu-model_item:hover{
+    color: #E51937;
+    border-bottom: 2px solid;
+    padding: 0px opx 6px 0px;
+}
 .menu-model__item_active{
     margin-right: 40px;
     color: #E51937;
-    text-decoration: underline;
     font-weight: 600;
-}
-.menu-model__item_active:hover{
-    text-shadow: 1px 1px 1px #E51937;
-    color: #E51937;
-    border-bottom: 2px;
-    padding: 5px;;
+    border-bottom: 2px solid;
+    padding: 0px 0px 6px 0px;
 }
 .side-menu{
     display: flex;
@@ -107,7 +107,7 @@ a{
     margin: 0 auto;  
 }
 .speed{
-    width: 75px;
+    width: 54px;
 }
 .value-first{
     font-weight: 600;
@@ -130,6 +130,10 @@ a{
     font-size: 12px;
     line-height: 15px;
 }
+.value-first_cm,
+.value-third_km{
+    font-size: 20px;
+ }
 .order__wheel{
     width: 14px;
     height: 8px;
@@ -140,6 +144,9 @@ a{
 }
 .wheel__red{
     display: none;
+}
+.wheel{
+    padding-right: 6px;
 }
 .link{
     font-weight: bold;
@@ -170,14 +177,22 @@ a{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 82px;
-    width: 887px;
-    margin: 34px auto;
+    width: 976px;
+    margin: 0px auto;
 }
 .road-icon_red{
     display: none;
 }
+.road-icon{
+    margin: 10px;
+    margin-bottom: 0;
+}
 .speed__wheel_all{
     display: flex;
+}
+.speed__wheel{
+    margin: 12px;
+    margin-bottom: 0;
 }
 .description__second_all{
     display: flex;
@@ -324,7 +339,7 @@ a{
     }
 
 
-    
+
 }
 
 
