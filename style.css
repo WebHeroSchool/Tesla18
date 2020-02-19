@@ -253,6 +253,7 @@ a{
     .description{
         width: 607px;
         margin: 0 auto;
+        padding-bottom: 50px;
     }
     .title{
         font-size: 90px;
@@ -288,7 +289,7 @@ a{
         font-size: 16px;
     }
     .section-second_btn{
-        width: 221px;
+        width: 200px;
         height: 58px;
         color: #ffffff;
         background-color: #E51937;
@@ -298,7 +299,7 @@ a{
     }
     .wheel__red{
         display: block;
-        margin-right: 23px;
+        margin-right: 17px;
     }
     .speed__wheel_all{
         margin-bottom: 60px;
