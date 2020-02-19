@@ -273,7 +273,7 @@ a{
     }
     .speed {
         width: 75px;
-        padding-right: 15px;
+        padding-right: 0px;
     }
     .road-icon{
         display: none;
@@ -302,7 +302,10 @@ a{
     }
     .speed__wheel_all{
         margin-bottom: 60px;
-        padding-right: 70px;
+        padding-right: 19px;
+    }
+    .speed__wheel{
+        margin-right: 0;
     }
     .speed__wheel_text{
         margin: 9px;
