@@ -391,6 +391,9 @@ a{
         width: 100%;
     }
 }
+.car__picture{
+    vertical-align: bottom;
+}
 .section-third{
     display: grid;
     grid-template-columns: 69.5% 30.5%;
@@ -414,16 +417,21 @@ a{
     color: #ffffff;
 }
 .redblock-right{
-    margin: 0;
-    
+    width: 100%;
 }
 .redblock__title{
-    font: normal 600 30px/37px "Montserrat";
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 30px;
+    line-height:37px;
     margin: 0 0 12px;
 }
 .redblock__text{
-    font: normal 500 15px/18px;
-    margin-bottom: 35px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 54px;
 }
 .redblock__title-first{
     font-weight: 600;
@@ -487,12 +495,13 @@ a{
 .screenblock{
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 44px;
 }
 .internet{
     display: flex;
     justify-content: flex-start;
 }
-.buttery{
+.buttery-info{
     display: flex;
     justify-content: flex-start;
 }
@@ -500,4 +509,25 @@ a{
     display: flex;
     justify-content: space-around;
 }
-
+.screen{
+    padding-right: 19px;
+}
+.wifi{
+    padding-right: 20px;
+}
+.internet{
+    margin-bottom: 24px;
+}
+.buttery{
+    padding-right: 24px;
+}
+.buttery-info{
+    margin-bottom: 182px;
+}
+.ilearn__first{
+    padding-right: 3px;
+}
+.info{
+    vertical-align: middle;
+    padding-right: 22px;
+}
