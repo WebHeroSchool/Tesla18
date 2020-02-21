@@ -507,7 +507,8 @@ a{
 }
 .order{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .screen{
     padding-right: 19px;
@@ -522,12 +523,12 @@ a{
     padding-right: 24px;
 }
 .buttery-info{
-    margin-bottom: 182px;
+    margin-bottom: 274px;
 }
 .ilearn__first{
     padding-right: 3px;
 }
-.info{
-    vertical-align: middle;
+.info-link{
     padding-right: 22px;
 }
+
