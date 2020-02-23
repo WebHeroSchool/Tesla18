@@ -391,6 +391,10 @@ a{
         width: 100%;
     }
 }
+.carblock{
+    position: relative;
+    z-index: auto;
+}
 .car__picture{
     vertical-align: bottom;
 }
@@ -412,12 +416,12 @@ a{
     padding: 6px 0 0 80px;
 }
 .section-header{
+    height: 880px;
     background: #E51937;
     padding: 51px 44px 0px 49px; 
     color: #ffffff;
-}
-.redblock-right{
-    width: 100%;
+    position: relative;
+    z-index: auto;
 }
 .redblock__title{
     font-family: "Montserrat";
@@ -452,7 +456,6 @@ a{
     font-weight: 600;
     font-size: 20px;
     line-height: 18px;
-    /*word-wrap: break-word;*/
 }
 .redblock__title-fourth{
     font-weight: normal;
