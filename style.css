@@ -5,6 +5,7 @@
 }
 body{
     min-width: 380px;
+    max-width: 1440px;
 }
 a{
     text-decoration: none;
@@ -401,8 +402,6 @@ a{
 .section-third{
     display: grid;
     grid-template-columns: 69.5% 30.5%;
-    min-width: 380px;
-    max-width: 1440px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -418,7 +417,7 @@ a{
 .section-header{
     height: 880px;
     background: #E51937;
-    padding: 51px 44px 0px 49px; 
+    padding: 48px; 
     color: #ffffff;
     position: relative;
     z-index: auto;
