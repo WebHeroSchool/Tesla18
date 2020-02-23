@@ -6,6 +6,7 @@
 body{
     min-width: 380px;
     max-width: 1440px;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
@@ -392,18 +393,15 @@ a{
         width: 100%;
     }
 }
-.carblock{
-    position: relative;
-    z-index: auto;
-}
 .car__picture{
     vertical-align: bottom;
 }
 .section-third{
     display: grid;
-    grid-template-columns: 69.5% 30.5%;
+   /* grid-template-columns: 69.5% 30.5%;
     margin: 0 auto;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
+    grid-auto-flow: column;
 }
 .section-header{
     display: grid;
@@ -419,8 +417,6 @@ a{
     background: #E51937;
     padding: 48px; 
     color: #ffffff;
-    position: relative;
-    z-index: auto;
 }
 .redblock__title{
     font-family: "Montserrat";
