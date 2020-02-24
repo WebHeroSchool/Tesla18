@@ -73,6 +73,7 @@ a{
     background: url(./img/Tesla-Wordmark-Red-Background.png) no-repeat;
      background-size: contain;
      background-position: 20% 10%;
+     margin-bottom: 18px;
 }
 .title{
     text-align: center;
@@ -398,6 +399,7 @@ a{
     justify-content: space-between;
     box-sizing: border-box; 
     background: url(./img/tesla-car-inner.png) no-repeat;
+    background-size: 100%;
 }
 .info__title{
     color: #E51937;
