@@ -1,4 +1,4 @@
-
+ 
 *{
     margin: 0;
     font-family: 'Montserrat', Arial, sans-serif; 
@@ -393,18 +393,12 @@ a{
         width: 100%;
     }
 }
-.car__picture{
-    vertical-align: bottom;
-}
 .section-third{
-    display: grid;
-   /* grid-template-columns: 69.5% 30.5%;
-    margin: 0 auto;
-    box-sizing: border-box;*/
-    grid-auto-flow: column;
-}
-.section-header{
-    display: grid;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box; 
+    background-image: url(./img/screen.png) no-repeat;
+    background-size: contain;
 }
 .info__title{
     color: #E51937;
@@ -413,7 +407,6 @@ a{
     padding: 6px 0 0 80px;
 }
 .section-header{
-    height: 880px;
     background: #E51937;
     padding: 48px; 
     color: #ffffff;
