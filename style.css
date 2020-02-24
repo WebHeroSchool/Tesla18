@@ -395,9 +395,9 @@ a{
 }
 .section-third{
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     box-sizing: border-box; 
-    background-image: url(./img/screen.png) no-repeat;
+    background: url(./img/tesla-car-inner.png) no-repeat;
     background-size: contain;
 }
 .info__title{
@@ -407,9 +407,13 @@ a{
     padding: 6px 0 0 80px;
 }
 .section-header{
+    display: flex;
+    justify-content: flex-end;
     background: #E51937;
     padding: 48px; 
     color: #ffffff;
+    width: 440px;
+    height: 900px;
 }
 .redblock__title{
     font-family: "Montserrat";
