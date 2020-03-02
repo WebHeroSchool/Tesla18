@@ -402,6 +402,8 @@ a{
 .block-section_third{
     display: flex;
     background: url(./img/tesla-car-inner.png) no-repeat;
+    background-size: auto 83%;
+    height: 1103px;
     width: 1548px;
     height: 844px;
     flex-direction: row;
@@ -420,6 +422,7 @@ a{
     color: #ffffff;
     width: 334px;
     height: 820px;
+    margin-bottom: 20px;
 }
 .redblock__title{
     font-family: "Montserrat";
@@ -433,7 +436,7 @@ a{
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    margin-bottom: 54px;
+    margin-bottom: 66px;
 }
 .redblock__title-first{
     font-weight: 600;
@@ -496,11 +499,13 @@ a{
 .screenblock{
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 44px;
+    margin-bottom: 30px;
 }
 .internet{
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 20px;
+
 }
 .buttery-info{
     display: flex;
@@ -517,14 +522,11 @@ a{
 .wifi{
     padding-right: 20px;
 }
-.internet{
-    margin-bottom: 24px;
-}
 .buttery{
     padding-right: 24px;
 }
 .buttery-info{
-    margin-bottom: 274px;
+    margin-bottom: 150px;
 }
 .ilearn__first{
     padding-right: 3px;
@@ -533,7 +535,7 @@ a{
     padding-right: 22px;
 }
 @media screen and (max-width: 1100px){
-    .section-third{
+    .{
         background-size: 150% 100%;
 }
 @media screen and (max-width: 900px){
