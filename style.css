@@ -524,7 +524,7 @@ a{
     padding-right: 24px;
 }
 .buttery-info{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .ilearn__first{
     padding-right: 3px;
@@ -552,9 +552,10 @@ a{
         padding: 0px;
     }
     .redblock-right{
-        display: flex;
-        justify-content: space-between;
         padding: 51px;
+    }
+    .redblock-right_all{
+        display: flex;
     }
     
 }
