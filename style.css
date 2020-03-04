@@ -541,5 +541,19 @@ a{
       display: flex;
       width: 100%;
     }
+    .block-section_third{
+        display: flex;
+        justify-content: flex-end;
+        background-size: auto;
+        height: 840px;
+        width: 100%;
+    }
+    .section-header{
+        padding: 0px;
+    }
+    .redblock-right{
+        padding: 51px;
+    }
+  
 }
 
