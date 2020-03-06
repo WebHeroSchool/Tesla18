@@ -573,5 +573,8 @@ a{
     .redblock__wrap{
         padding: 9px;
     }
+    .section-header{
+        height: 480px;
+    }
 }
 
