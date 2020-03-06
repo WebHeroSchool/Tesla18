@@ -583,4 +583,29 @@ a{
         margin-right: 55px;
     }
 }
+@media screen and (max-width: 768px){
+    .block-section_third{
+        height: 540px;
+    }
+}
+@media screen and (max-width: 680px){
+    .redblock__wrap{
+        display: none;
+    }
+    .order{
+        display: none;
+    }
+    .redblock-right_additional{
+        width: 100%;
+    }
+    .info__title{
+        display: none;
+    }
+    .section-header{
+        height: 404px;
+    }
+    .block-section_third{
+      
+    }
+}
 
