@@ -494,6 +494,11 @@ a{
     line-height: 16px;
     text-transform: uppercase;
 }
+.redblock-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .screenblock{
     display: flex;
     justify-content: flex-start;
@@ -526,9 +531,6 @@ a{
 .buttery{
     padding-right: 24px;
 }
-.buttery-info{
-    margin-bottom: 230px;
-}
 .ilearn__first{
     padding-right: 3px;
 }
@@ -548,8 +550,9 @@ a{
     .block-section_third{
         display: flex;
         justify-content: flex-end;
-        background-size: auto;
-        height: 840px;
+        background-size: contain;
+        background-position: bottom;
+        height: 640px;
         width: 100%;
     }
     .section-header{
@@ -571,10 +574,13 @@ a{
         align-items: center;
     }
     .redblock__wrap{
-        padding: 9px;
+        padding: 15px;
     }
     .section-header{
         height: 480px;
+    }
+    .info__title{
+        margin-right: 55px;
     }
 }
 
