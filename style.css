@@ -402,8 +402,7 @@ a{
 .block-section_third{
     display: flex;
     background: url(./img/tesla-car-inner.png) no-repeat;
-    background-size: auto 83%;
-    height: 1103px;
+    background-size: auto 100%;
     width: 1548px;
     flex-direction: row;
 }
@@ -608,4 +607,10 @@ a{
       
     }
 }
+.section-fourth{
+    width: 440px;
+    height: 900px;
+    background-color: #E51937;
+}
+
 
