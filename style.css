@@ -531,7 +531,7 @@ a{
         height: 404px;
     }
     .block-section_third{
-      
+      height: 500px
     }
 }
 @media screen and (max-width: 607px){
@@ -602,6 +602,9 @@ a{
        width: 148px;
        height: 47px;
        font-size: 13px;
+   }
+   .block-section_third{
+       height: 450px;
    }
 }
 @media screen and (max-width: 450px){
