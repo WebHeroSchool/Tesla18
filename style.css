@@ -359,9 +359,85 @@ a{
     padding-right: 22px;
 }
 .section-fourth{
-    width: 440px;
+    width: 380px;
     height: 900px;
     background-color: #E51937;
+    padding: 51px;
+}
+.redblock-left_additional{
+    margin-bottom: 12px;
+}
+.title__secure{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #ffffff;
+}
+.redblock__info{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.text-first{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #ffffff;
+}
+.protection-rating{
+    margin-bottom: 30px;
+}
+.redblock-rating__text{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.redblock-rating__text-another{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.redblock-rating__text-sub{
+    font-weight: bold;
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 12px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.redblock__rating-stars{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.redblock-quality__title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    color: #ffffff;
+}
+.redblock__rating-stars-passenger{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 111px;
+}
+.quality-text{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 30px;
+}
+.redblock__rating{
+    display: flex;
+    align-items: center;
+}
+.redblock__rating-pic{
+    padding-right: 23px;
 }
 @media screen and (max-width: 1024px){
     .menu{
@@ -604,7 +680,7 @@ a{
        font-size: 13px;
    }
    .block-section_third{
-       height: 450px;
+       height: 400px;
    }
 }
 @media screen and (max-width: 450px){
