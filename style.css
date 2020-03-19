@@ -359,8 +359,9 @@ a{
     padding-right: 22px;
 }
 .section-fourth{
-    width: 380px;
-    height: 820px;
+    display: flex;
+    width: 440px;
+    height: 1000px;
     background-color: #E51937;
     padding: 51px;
 }
@@ -416,10 +417,6 @@ a{
     justify-content: space-between;
     margin-bottom: 16px;
 }
-.stars-logo{
-    padding-right: 85px;
-}
-
 .redblock-quality__title{
     font-weight: 600;
     font-size: 50px;
