@@ -416,6 +416,10 @@ a{
     justify-content: space-between;
     margin-bottom: 16px;
 }
+.stars-logo{
+    padding-right: 85px;
+}
+
 .redblock-quality__title{
     font-weight: 600;
     font-size: 50px;
