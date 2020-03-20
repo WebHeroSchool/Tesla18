@@ -481,6 +481,11 @@ a{
 .security-pictures{
     position: absolute;
 }
+.school-logo{
+    position: relative;
+    top: 70px;
+    left: 240px;
+}
 @media screen and (max-width: 1024px){
     .menu{
         display: none;
