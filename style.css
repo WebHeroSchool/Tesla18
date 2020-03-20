@@ -360,8 +360,8 @@ a{
 }
 .section-fourth{
     display: flex;
-    width: 440px;
-    height: 1000px;
+    width: 340px;
+    height: 800px;
     background-color: #E51937;
     padding: 51px;
 }
@@ -416,6 +416,7 @@ a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
+    padding-right: 40px;
 }
 .redblock-quality__title{
     font-weight: 600;
@@ -427,6 +428,7 @@ a{
     display: flex;
     justify-content: space-between;
     margin-bottom: 111px;
+    padding-right: 40px;
 }
 .quality-text{
     color: #ffffff;
@@ -465,6 +467,19 @@ a{
 }
 .ilearn__two{
     padding-right: 3px;
+}
+.model-wordmark{
+    position: relative;
+    left: 600px;
+    top: 105px;
+}
+.car-inner{
+    position: relative;
+    left: 300px;
+    bottom: 19px;
+}
+.security-pictures{
+    position: absolute;
 }
 @media screen and (max-width: 1024px){
     .menu{
