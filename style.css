@@ -486,6 +486,25 @@ a{
     top: 70px;
     left: 240px;
 }
+@media screen and (max-width: 1410px){
+    .model-wordmark{
+        left: 500px;
+    }
+    .school-logo{
+        display: none;
+    }
+    .car-inner{
+        left:260px;
+    }
+}
+@media screen and (max-width: 1318px){
+    .model-wordmark{
+        left: 450px;
+    }
+    .car-inner{
+
+    }
+}
 @media screen and (max-width: 1024px){
     .menu{
         display: none;
