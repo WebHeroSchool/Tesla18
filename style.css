@@ -492,18 +492,42 @@ a{
     width: 94px;
     height: 37px;
 }
-@media screen and (max-width: 1481px){
-    .school-logo{
-        display: ;
+@media screen and (max-width: 1421px){
+    .model-wordmark{
+        width: 700px;
+        top: 200px;
+    }
+    .car-inner{
+        width: 900px;
+        top: 250px;
     }
 }
-@media screen and (max-width: 1298px){
-    .
+@media screen and (max-width: 1300px){
+    .school-logo_pic{
+        display: none;
+    }
+    .model-wordmark{
+        width: 600px;
+        top: 230px;
+    }
+    .car-inner{
+        width: 800px;
+    }
 }
-@media screen and (max-width: 1206px){
-  
-}
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 1235px){
+    .model-wordmark{
+        width: 500px;
+        top: 270px;
+        left: 100px;
+    }
+    .car-inner{
+        left: 300px;
+        width:600px;
+        top: 300px;
+    }
+    .section-fourth_add{
+        padding: 40px;
+    }
 }
 @media screen and (max-width: 1024px){
     .menu{
@@ -525,6 +549,19 @@ a{
     }
     .speed__wheel{
         margin-right: 10px;
+    }
+    .section-fourth{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-fourth_add{
+        display: flex;
+        width: 90%;
+        padding: 0;
+    }
+    .security-picture{
+        display: flex;
+        justify-content: flex-start;
     }
 }
 @media screen and (max-width: 900px){
