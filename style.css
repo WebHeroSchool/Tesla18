@@ -360,6 +360,7 @@ a{
 }
 .section-fourth{
     display: flex;
+    position: relative;
 }
 .section-fourth_add{
     width: 340px;
@@ -470,6 +471,9 @@ a{
 .ilearn__two{
     padding-right: 3px;
 }
+.security-picture{
+    position: relative;
+}
 .model-wordmark{
     position: relative;
     left: 180px;
@@ -477,23 +481,20 @@ a{
 }
 .car-inner{
     position: absolute;
-    left: 385px;
+    left: 345px;
+}
+.school-logo_pic{
+    position: absolute;
+    top: 90%;
+    left: 90%;
 }
 .school-logo{
-    position: absolute;
-    top: 1320px;
-    left: 690px;
     width: 94px;
     height: 37px;
 }
-@media screen and (max-width: 1674px){
-    
-}
-@media screen and (max-width: 1410px){
-    .
-   
+@media screen and (max-width: 1481px){
     .school-logo{
-        display: none;
+        display: ;
     }
 }
 @media screen and (max-width: 1298px){
