@@ -483,27 +483,47 @@ a{
 }
 .school-logo{
     position: relative;
-    top: 70px;
-    left: 240px;
+    top: 20px;
+    left: 620px;
+    width: 94px;
+}
+@media screen and (max-width: 1674px){
+    .model-wordmark{
+        left: 500px;
+    }
 }
 @media screen and (max-width: 1410px){
     .model-wordmark{
         left: 500px;
+        width: 700px;
+        top: 130px;
+    }
+    .car-inner{
+        left:290px;
+        width: 900px;
+        top: 30px;
+    }
+    .section-fourth{
+        padding: 35px;
     }
     .school-logo{
         display: none;
     }
-    .car-inner{
-        left:260px;
+}
+@media screen and (max-width: 1298px){
+    .model-wordmark{
+        left:420px;
     }
 }
-@media screen and (max-width: 1318px){
-    .model-wordmark{
-        left: 450px;
+@media screen and (max-width: 1206px){
+    .section-fourth{
+        padding: 25px;
     }
     .car-inner{
-
+        left: 250px;
     }
+}
+@media screen and (max-width: 1170px){
 }
 @media screen and (max-width: 1024px){
     .menu{
