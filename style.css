@@ -363,8 +363,7 @@ a{
     position: relative;
 }
 .section-fourth_add{
-    width: 340px;
-    height: 800px;
+    width: 25%;
     background-color: #E51937;
     padding: 51px;
 }
@@ -473,6 +472,7 @@ a{
 }
 .security-pictures{
     position: relative;
+    width: 75%;
 }
 .wordmark{
     position: relative;
@@ -481,7 +481,7 @@ a{
 }
 .car-security{
     position: absolute; 
-    left: -89px;
+    right: 5%;
 }
 .school-logo_pic{
     position: absolute;
