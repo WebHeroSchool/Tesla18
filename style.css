@@ -475,13 +475,15 @@ a{
     width: 75%;
 }
 .wordmark{
-    position: relative;
+    position: absolute;
     left: 180px;
     top: 115px;
+    width: 50%
 }
 .car-security{
     position: absolute; 
     right: 5%;
+    top: 15%;
 }
 .school-logo_pic{
     position: absolute;
@@ -511,11 +513,24 @@ a{
    }
    .section-fourth_add{
        display: flex;
-       width: 92%;
+       width: 100%;
    }
    .security-pictures{
        display: flex;
        justify-content: flex-start;
+   }
+   .car-security{
+       position: relative;
+   }
+   .section-fourth_add{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .redblock-left{
+       width: 30%;
+   }
+   .redblock__rating{
+       display: none;
    }
 }
 @media screen and (max-width: 1024px){
