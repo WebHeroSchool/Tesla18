@@ -359,14 +359,14 @@ a{
     padding-right: 22px;
 }
 .section-fourth{
-    display: flex;
+    display: flex; 
     position: relative;
-    background: #E51937;
-    color: #ffffff;
 }
 .section-fourth_add{
+    background: #E51937;
     width: 400px;
     padding: 51px;
+    color: #ffffff;
 }
 .redblock-left_additional{
     margin-bottom: 12px;
