@@ -361,10 +361,10 @@ a{
 .section-fourth{
     display: flex;
     position: relative;
+    background: #E51937;
 }
 .section-fourth_add{
-    width: 25%;
-    background-color: #E51937;
+    width: 400px;
     padding: 51px;
 }
 .redblock-left_additional{
