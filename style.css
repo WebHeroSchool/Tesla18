@@ -362,6 +362,7 @@ a{
     display: flex;
     position: relative;
     background: #E51937;
+    color: #ffffff;
 }
 .section-fourth_add{
     width: 400px;
@@ -374,20 +375,17 @@ a{
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    color: #ffffff;
 }
 .redblock__info{
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    color: #ffffff;
     margin-bottom: 50px;
 }
 .text-first{
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    color: #ffffff;
 }
 .protection-rating{
     margin-bottom: 30px;
@@ -396,20 +394,17 @@ a{
     font-weight: bold;
     font-size: 17px;
     line-height: 21px;
-    color: #ffffff;
     text-transform: uppercase;
 }
 .redblock-rating__text-another{
     font-weight: bold;
     font-size: 17px;
     line-height: 21px;
-    color: #ffffff;
     text-transform: uppercase;
 }
 .redblock-rating__text-sub{
     font-weight: bold;
     font-size: 10px;
-    color: #ffffff;
     line-height: 12px;
     text-transform: uppercase;
     opacity: 0.7;
@@ -424,7 +419,6 @@ a{
     font-weight: 600;
     font-size: 50px;
     line-height: 61px;
-    color: #ffffff;
 }
 .redblock__rating-stars-passenger{
     display: flex;
@@ -433,7 +427,6 @@ a{
     padding-right: 40px;
 }
 .quality-text{
-    color: #ffffff;
     font-size: 25px;
     line-height: 30px;
 }
