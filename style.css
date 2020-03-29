@@ -653,11 +653,15 @@ a{
     .redblock__information-add{
         padding-right: 22px;
     }
+    .security-pictires{
+        width: 70%;
+    }
     .car-inner{
         width: 150%;
     }
     .model-wordmark{
-        width: 400%
+        position: absolute;
+        width: 700%
     }
     .car-inner{
         position: relative;
