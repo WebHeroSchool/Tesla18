@@ -508,6 +508,14 @@ a{
         top: 20%;
     }
 }
+@media screen and (max-width: 1057px){
+    .wordmark{
+        top: 29%;
+    }
+    .car-security{
+        top: 32%;
+    }
+}
 @media screen and (max-width: 1024px){
     .menu{
         display: none;
@@ -528,6 +536,14 @@ a{
     }
     .speed__wheel{
         margin-right: 10px;
+    }
+}
+@media screen and (max-width:949px){
+    .wordmark{
+        top: 39%;
+    }
+    .car-security{
+        top: 40%;
     }
 }
 @media screen and (max-width: 900px){
