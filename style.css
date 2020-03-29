@@ -603,6 +603,7 @@ a{
     }
     .section-fourth_add{
         display: flex;
+        flex-direction: column;
         box-sizing: border-box;
         width: 100%;
         position: static;
@@ -624,6 +625,35 @@ a{
     .rating-stars{
         display: flex;
         flex-wrap: nowrap;
+    }
+    .redblock-left{
+        width: 50%;
+    }
+    .redblock-wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    .quality-mark{
+        display: flex;
+        flex-direction: column;
+    }
+    .rating-stars{
+        display: flex;
+        flex-direction: column;
+    }
+    .redblock__rating-stars{
+        display: flex;
+        flex-direction: row;
+    }
+    .redblock__footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .car-inner{
+        width: 150%;
+    }
+    .model-wordmark{
+        width: 260%
     }
 }
 @media screen and (max-width: 768px){
