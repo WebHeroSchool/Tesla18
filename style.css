@@ -466,6 +466,7 @@ a{
 .security-pictures{
     position: relative;
     width: 75%;
+    right: 6%;
 }
 .wordmark{
     position: absolute;
@@ -478,6 +479,9 @@ a{
     right: 5%;
     top: 15%;
 }
+.car-inner{
+    width: 110%;
+}
 .school-logo_pic{
     position: absolute;
     top: 90%;
@@ -486,45 +490,6 @@ a{
 .school-logo{
     width: 94px;
     height: 37px;
-}
-@media screen and (max-width: 1404px){
-    .model-wordmark{
-        width: 600px;
-    }
-    .car-security{
-       width: 500px;
-       right: 55%;
-    }
-    .school-logo_pic{
-        display: none;
-    }
-}
-@media screen and (max-width: 1324px){
-   .section-fourth{
-       display: flex;
-       flex-direction: column-reverse;
-   }
-   .section-fourth_add{
-       display: flex;
-       width: 100%;
-   }
-   .security-pictures{
-       display: flex;
-       justify-content: flex-start;
-   }
-   .car-security{
-       position: relative;
-   }
-   .section-fourth_add{
-       display: flex;
-       flex-wrap: wrap;
-   }
-   .redblock-left{
-       width: 30%;
-   }
-   .redblock__rating{
-       display: none;
-   }
 }
 @media screen and (max-width: 1024px){
     .menu{
