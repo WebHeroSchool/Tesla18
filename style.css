@@ -474,6 +474,9 @@ a{
     top: 115px;
     width: 50%
 }
+.model-wordmark{
+    width: 170%;
+}
 .car-security{
     position: absolute; 
     right: 5%;
@@ -490,6 +493,11 @@ a{
 .school-logo{
     width: 94px;
     height: 37px;
+}
+@media screen and{
+    .model-wordmark{
+        width: 150%
+    }
 }
 @media screen and (max-width: 1024px){
     .menu{
