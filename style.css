@@ -616,6 +616,7 @@ a{
     }
     .wordmark{
         position: relative;
+        top: 15px;
     }
     .car-security{
         position: static;
@@ -655,7 +656,7 @@ a{
     }
     .security-pictures{
         width: 70%;
-        height: 50%;
+        height: 442px;
     }
     .car-inner{
         width: 150%;
@@ -663,7 +664,6 @@ a{
     .model-wordmark{
         position: absolute;
         width: 450%;
-        top: 19px;
     }
     .car-inner{
         position: relative;
@@ -766,6 +766,18 @@ a{
     }
     .block-section_third{
       height: 500px
+    }
+    .security-pictures{
+        height: 380px;
+    }
+    .quality-mark{
+        display: none;
+    }
+    .redblock__footer{
+        display: none;
+    }
+    .section-fourth_add{
+        width: 100%;
     }
 }
 @media screen and (max-width: 607px){
