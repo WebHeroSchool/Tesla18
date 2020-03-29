@@ -600,7 +600,6 @@ a{
     .section-fourth{
         display: flex;
         flex-direction: column-reverse;
-        position: static;
     }
     .section-fourth_add{
         display: flex;
@@ -610,6 +609,12 @@ a{
     .security-pictures{
         display: flex;
         justify-content: flex-start;
+        position: static;
+    }
+    .wordmark{
+        position: relative;
+    }
+    .car-security{
         position: static;
     }
 }
