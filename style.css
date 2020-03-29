@@ -604,6 +604,7 @@ a{
     .section-fourth_add{
         display: flex;
         box-sizing: border-box;
+        width: 100%;
         position: static;
     }
     .security-pictures{
@@ -616,6 +617,13 @@ a{
     }
     .car-security{
         position: static;
+    }
+    .redblock__rating{
+        display: none;
+    }
+    .rating-stars{
+        display: flex;
+        flex-wrap: nowrap;
     }
 }
 @media screen and (max-width: 768px){
