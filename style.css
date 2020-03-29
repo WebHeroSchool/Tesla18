@@ -501,6 +501,12 @@ a{
     .section-fourth_add{
         padding: 41px;
     }
+    .wordmark{
+        top: 19%;
+    }
+    .car-security{
+        top: 20%;
+    }
 }
 @media screen and (max-width: 1024px){
     .menu{
