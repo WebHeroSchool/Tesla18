@@ -653,19 +653,22 @@ a{
     .redblock__information-add{
         padding-right: 22px;
     }
-    .security-pictires{
+    .security-pictures{
         width: 70%;
+        height: 50%;
     }
     .car-inner{
         width: 150%;
     }
     .model-wordmark{
         position: absolute;
-        width: 700%
+        width: 450%;
+        top: 19px;
     }
     .car-inner{
         position: relative;
-        right: 20%
+        right: 20%;
+        top: 20px;
     }
 }
 @media screen and (max-width: 768px){
