@@ -597,6 +597,21 @@ a{
     .info__title{
             margin-right: 55px;
     }
+    .section-fourth{
+        display: flex;
+        flex-direction: column-reverse;
+        position: static;
+    }
+    .section-fourth_add{
+        display: flex;
+        box-sizing: border-box;
+        position: static;
+    }
+    .security-pictures{
+        display: flex;
+        justify-content: flex-start;
+        position: static;
+    }
 }
 @media screen and (max-width: 768px){
     .header{
