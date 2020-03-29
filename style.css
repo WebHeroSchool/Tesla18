@@ -498,6 +498,9 @@ a{
     .model-wordmark{
         width: 150%
     }
+    .section-fourth_add{
+        padding: 41px;
+    }
 }
 @media screen and (max-width: 1024px){
     .menu{
