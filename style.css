@@ -494,7 +494,7 @@ a{
     width: 94px;
     height: 37px;
 }
-@media screen and{
+@media screen and (max-width: 1191px){
     .model-wordmark{
         width: 150%
     }
