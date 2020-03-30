@@ -1,0 +1,886 @@
+ 
+*{
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif; 
+}
+body{
+    min-width: 380px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 40px 60px 0 60px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.menu-model_item {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    color: #000000;
+    margin-right: 40px;
+    padding: 0px 0px 6px 0px;
+}
+.menu-model_item:hover{
+    color: #E51937;
+    border-bottom: 2px solid;
+    padding: 0px opx 6px 0px;
+}
+.menu-model__item_active{
+    margin-right: 40px;
+    color: #E51937;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    padding: 0px 0px 6px 0px;
+}
+.side-menu{
+    display: flex;
+    align-items: center;
+}
+.side-menu_item:hover{
+    color: #E51937;
+    border-bottom: 2px solid;
+    padding: 0px 0px 6px 0px;
+}
+.side-menu_item{
+   display: inline;
+   position: relative; 
+   font-weight: 600;
+   font-size: 15px;
+   line-height: normal;
+   color: #000000;
+   margin-right: 25px;
+}
+.button__burger{
+    display: inline-flex;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+/*description of second section*/
+.section-second{
+    position: relative;
+    background: url(./img/Tesla-Wordmark-Red-Background.png) no-repeat;
+     background-size: contain;
+     background-position: 20% 10%;
+     margin-bottom: 18px;
+}
+.title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 110px;
+    margin-bottom: 0px;
+
+}
+.subtitle{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 27px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: normal;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+.wordmark__inner{
+    width: 100%;
+}
+.wordmark__background{
+    position: absolute;
+    top: 55px;
+    max-width: 100%;
+    width: 1514px;
+}
+.wrap{
+    margin-bottom: 23px;
+}
+.car{
+    width: 978px;
+    height: 450px;
+    top: 278px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;  
+}
+.speed{
+    width: 54px;
+}
+.value-first{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+}
+.value-second{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.value-third{
+    font-weight:  600;
+    font-size: 35px;
+    line-height: 43px;
+    
+}
+.value-fourth{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.value-first_cm,
+.value-third_km{
+    font-size: 20px;
+    font-weight: 600;
+ }
+.order__wheel{
+    width: 14px;
+    height: 8px;
+}
+.wrap__wheel{
+    display: flex;
+    align-items: center;
+}
+.wheel__red{
+    display: none;
+}
+.wheel{
+    padding-right: 6px;
+}
+.link{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.section-second_btn{
+    width: 160px;
+    height: 40px;
+    border: 2px solid #E51937;
+    box-sizing: border-box;
+    color: #E51937;
+    font-size: 13px;
+    line-height: 16px;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.section__order_btn{
+    display: flex;
+    align-items: center;
+}
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 82px;
+    width: 976px;
+    margin: 0px auto;
+    padding-bottom: 37px;
+}
+.road-icon_red{
+    display: none;
+}
+.road-icon{
+    margin: 10px;
+    margin-bottom: 0;
+}
+.speed__wheel_all{
+    display: flex;
+}
+.speed__wheel{
+    margin: 12px;
+    margin-bottom: 0;
+}
+.description__second_all{
+    display: flex;
+}
+.section__order{
+    display:flex;
+}
+.section__tick{
+    display: flex;
+    justify-content: center;
+}
+.section-third{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box; 
+}
+.block-section_third{
+    display: flex;
+    background: url(./img/tesla-car-inner.png) no-repeat;
+    background-size: auto 100%;
+    width: 1548px;
+    flex-direction: row;
+}
+.info__title{
+    color: #E51937;
+    font: normal 600 70px "Montserrat";
+    line-height: 85px;
+    padding: 6px 0 0 80px;
+}
+.section-header{
+    display: flex;
+    justify-content: flex-end;
+    background: #E51937;
+    padding: 48px; 
+    color: #ffffff;
+    width: 534px;
+    height: 820px;
+}
+.redblock__title{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 30px;
+    line-height:37px;
+    margin: 0 0 12px;
+}
+.redblock__text{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 66px;
+}
+.redblock__title-first{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+}
+.redblock__unit{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.redblock__title-second{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.redblock__title-third{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+}
+.redblock__title-fourth{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.redblock__title-fifth{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+}
+.redblock__unit-km{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.redblock__title-sixth{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.redblock__information{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.redblock__btn{
+    width: 160px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background: #E51937;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.redblock-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.screenblock{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.internet{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+
+}
+.buttery-info{
+    display: flex;
+    justify-content: flex-start;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-info{
+    display: flex;
+}
+.screen{
+    padding-right: 19px;
+}
+.wifi{
+    padding-right: 20px;
+}
+.buttery{
+    padding-right: 24px;
+}
+.ilearn__first{
+    padding-right: 3px;
+}
+.info-link{
+    white-space: nowrap;
+    padding-right: 22px;
+}
+.section-fourth{
+    display: flex; 
+    position: relative;
+}
+.section-fourth_add{
+    background: #E51937;
+    width: 400px;
+    padding: 51px;
+    color: #ffffff;
+}
+.redblock-left_additional{
+    margin-bottom: 12px;
+}
+.title__secure{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.redblock__info{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 50px;
+}
+.text-first{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.protection-rating{
+    margin-bottom: 30px;
+}
+.redblock-rating__text{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.redblock-rating__text-another{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.redblock-rating__text-sub{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.redblock__rating-stars{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding-right: 40px;
+}
+.redblock-quality__title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+}
+.redblock__rating-stars-passenger{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 111px;
+    padding-right: 40px;
+}
+.quality-text{
+    font-size: 25px;
+    line-height: 30px;
+}
+.redblock__rating{
+    display: flex;
+    align-items: center;
+    margin-bottom: 
+}
+.redblock__rating-pic{
+    padding-right: 23px;
+}
+.redblock-order__btn{
+    width: 160px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background: #E51937;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.redblock__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-info__redblock{
+    display: flex;
+}
+.redblock__rating{
+    margin-bottom: 80px;
+}
+.ilearn__two{
+    padding-right: 3px;
+}
+.security-pictures{
+    position: relative;
+    width: 75%;
+    right: 6%;
+}
+.wordmark{
+    position: absolute;
+    left: 180px;
+    top: 115px;
+    width: 50%
+}
+.model-wordmark{
+    width: 170%;
+}
+.car-security{
+    position: absolute; 
+    right: 5%;
+    top: 15%;
+}
+.car-inner{
+    width: 110%;
+}
+.school-logo_pic{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
+.school-logo{
+    width: 94px;
+    height: 37px;
+}
+@media screen and (max-width: 1191px){
+    .model-wordmark{
+        width: 150%
+    }
+    .section-fourth_add{
+        padding: 41px;
+    }
+    .wordmark{
+        top: 19%;
+    }
+    .car-security{
+        top: 20%;
+    }
+}
+@media screen and (max-width: 1057px){
+    .wordmark{
+        top: 29%;
+    }
+    .car-security{
+        top: 32%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .menu{
+        display: none;
+    }
+    .side-menu_item{
+        display: none;
+    }
+    .car{
+      width: 761px;
+      height: 396px;
+      top: 267px;  
+    }
+    .description{
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+       width: 100%;
+    }
+    .speed__wheel{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:949px){
+    .wordmark{
+        top: 39%;
+    }
+    .car-security{
+        top: 40%;
+    }
+}
+@media screen and (max-width: 900px){
+    .section-second{
+        background-position: 35px 90px;
+    }
+    .header{
+        margin-bottom: 15px;
+    }
+    .section-third{
+         display: flex;
+         flex-direction: column;   
+     }
+     .section-header{
+          display: flex;
+          width: 100%;
+     }
+    .block-section_third{
+            display: flex;
+            justify-content: flex-end;
+            background-size: contain;
+            background-position: bottom;
+            height: 640px;
+            width: 100%;
+    }
+       
+    .section-header{
+            padding: 0px;
+    }
+     .redblock-right{
+            padding: 51px;
+    }
+    .redblock-right_all{
+            display: flex;
+    }
+    .redblock-right_additional{
+            width: 50%;
+            padding-right: 35px;
+     }
+     .order{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+     .redblock__wrap{
+            padding: 15px;
+     }
+     .section-header{
+            height: 480px;
+    }
+    .info__title{
+            margin-right: 55px;
+    }
+    .section-fourth{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-fourth_add{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+        position: static;
+        padding: 25px;
+    }
+    .security-pictures{
+        display: flex;
+        justify-content: flex-start;
+        position: static;
+    }
+    .wordmark{
+        position: relative;
+        top: 15px;
+    }
+    .car-security{
+        position: static;
+    }
+    .redblock__rating{
+        display: none;
+    }
+    .rating-stars{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .redblock-left{
+        width: 50%;
+    }
+    .redblock-wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    .quality-mark{
+        display: flex;
+        flex-direction: column;
+    }
+    .rating-stars{
+        display: flex;
+        flex-direction: column;
+    }
+    .redblock__rating-stars{
+        display: flex;
+        flex-direction: row;
+    }
+    .redblock__footer{
+        display: flex;
+        justify-content: center;
+    }
+    .redblock__information-add{
+        padding-right: 22px;
+    }
+    .security-pictures{
+        width: 70%;
+        height: 442px;
+    }
+    .car-inner{
+        width: 150%;
+    }
+    .model-wordmark{
+        position: absolute;
+        width: 450%;
+    }
+    .car-inner{
+        position: relative;
+        right: 20%;
+        top: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .header{
+        margin-bottom: 75px;
+    }
+    .car{
+        width: 100%;
+        height: 100%;
+    }
+    .description{
+        width: 607px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .title{
+        font-size: 90px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    .value-first,
+    .value-third{
+        font-size: 50px;
+    }
+    .value-first_cm,
+    .value-third_km{
+        font-size: 20px;
+    }
+    .description__second_all{
+        padding-right: 40px;
+    }
+    .speed {
+        width: 75px;
+        padding-right: 0px;
+    }
+    .road-icon{
+        display: none;
+    }
+    .road-icon_red{
+        width: 42px;
+        display: block;
+        padding-right: 15px;
+    }
+    .link{
+        color: #E51937;
+        font-size: 16px;
+    }
+    .section-second_btn{
+        width: 200px;
+        height: 58px;
+        color: #ffffff;
+        background-color: #E51937;
+    }
+    .wheel{
+        display:none;
+    }
+    .wheel__red{
+        display: block;
+        margin-right: 17px;
+    }
+    .speed__wheel_all{
+        margin-bottom: 60px;
+        padding-right: 19px;
+    }
+    .speed__wheel{
+        margin-right: 0;
+    }
+    .speed__wheel_text{
+        margin: 9px;
+    }
+    .wrap{
+        margin-bottom: 58px;
+    }
+    .block-section_third{
+        height: 540px;
+        background-size: 120%;
+    }
+
+}
+@media screen and (max-width: 680px){
+    .redblock__wrap{
+        display: none;
+    }
+    .order{
+        display: none;
+    }
+    .redblock-right_additional{
+        width: 100%;
+    }
+    .info__title{
+        display: none;
+    }
+    .section-header{
+        height: 404px;
+        height: 316px;
+    }
+    .block-section_third{
+      height: 380px
+    }
+    .security-pictures{
+        height: 320px;
+    }
+    .quality-mark{
+        display: none;
+    }
+    .redblock__footer{
+        display: none;
+    }
+    .redblock-left{
+        width: 100%;
+    }
+    .model-wordmark{
+        width: 550%;
+    }
+    .section-fourth_add{
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 607px){
+    .description{
+        width: 508px;
+    }
+    .block-section_third{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 508px){
+    .description{
+        width: 458px;
+    }
+}
+@media screen and (max-width: 460px){
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 10px;
+    }
+    .wrap{
+        margin-bottom: 18px;
+    }
+    .speed{
+        width: 64px;
+        padding-right: 0px;
+        margin: 9px auto;
+    }
+    .speed__wheel{
+        width: 38px;
+        padding-right: 35px;
+        margin-bottom: 0px;
+    }
+
+    .wheel__red{
+        margin-right: 10px;
+    }
+    .value-first,
+    .value-third{
+        font-size: 27px;
+    }
+    .value-first_cm,
+    .value-third_km{
+        font-size: 15px;
+    }
+    .link{
+        font-size: 13px;
+    }
+    .road-icon_red{
+        width: 30px;
+        margin: 11px auto;
+    }
+    p{
+        font-size: 10px;
+    }
+   .header{
+       padding: 10px;
+   }
+   .title{
+       line-height: 61px;
+   }
+   .section-second{
+       background-position: 3px 50px;
+   }
+   .description__second_all{
+       margin: 11px;
+   }
+   .section-second_btn{
+       width: 148px;
+       height: 47px;
+       font-size: 13px;
+   }
+   .block-section_third{
+       height: 300px;
+   }
+   .redblock-right{
+       padding: 35px;
+   }
+   .security-pictures{
+       height: 260px;
+   }
+}
+@media screen and (max-width: 450px){
+    .description{
+        width: 100%;
+    }
+    .redblock-right{
+        padding: 25px;
+    }
+    .seciruty-pictures{
+        height: 230px;
+    }
+}
+
+
+
